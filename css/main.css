@@ -1,0 +1,89 @@
+body {
+    padding: 30px;
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-bold-italic";
+    src: url("../fonts/Roboto-BlackItalic.ttf");
+}
+
+header {
+    border: solid 1px black;
+    height: 200px;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 25%;
+    margin-left: 5%;
+}
+
+.logo .img-logo {
+    width: 270px;
+}
+.content {
+    display: flex;
+    gap:2%;
+}
+
+.main {
+    border: solid 1px black;
+    height: 600px;
+    width: 70%;
+}
+
+.menu-right {
+    border: solid 1px black;
+    height: 600px;
+    width: 30%;
+}
+
+.footer {
+    border: solid 1px black;
+    height: 100px;
+    margin-top: 2%;
+}
+
+#main-menu {
+    width: 50%;
+}
+
+#main-menu ul {
+    list-style: none;
+}
+
+#main-menu ul li {
+    display: inline;
+    margin: 10px;
+}
+
+#main-menu ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.text-roboto-light {
+    font-family: 'Roboto-light';
+}
+
+.text-roboto-bold-italic {
+    font-family: 'Roboto-bold-italic';
+}
